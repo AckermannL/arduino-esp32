@@ -156,6 +156,7 @@ void shiftOut(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, uint8_t val);
 #include "Udp.h"
 #include "HardwareSerial.h"
 #include "Esp.h"
+#include "pins_arduino.h"
 
 using std::abs;
 using std::isinf;
@@ -185,6 +186,6 @@ long random(long);
 #define _min(a,b) ((a)<(b)?(a):(b))
 #define _max(a,b) ((a)>(b)?(a):(b))
 
-#include "pins_arduino.h"
+
 
 #endif /* _ESP32_CORE_ARDUINO_H_ */
